@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03506c5c-39a7-4d2d-9a2a-4c92685a0fe6" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/linkedlist_delete.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/linkedlist_delete_position.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,8 +37,18 @@
       <file leaf-file-name="linkedlist_delete.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/linkedlist_delete.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-301">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="243">
+              <caret line="51" column="21" lean-forward="true" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="linkedlist_delete_position.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/linkedlist_delete_position.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="49" column="16" lean-forward="false" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -61,6 +71,7 @@
       <list>
         <option value="$PROJECT_DIR$/linkedlist.py" />
         <option value="$PROJECT_DIR$/linkedlist_insert.py" />
+        <option value="$PROJECT_DIR$/linkedlist_delete_position.py" />
         <option value="$PROJECT_DIR$/linkedlist_delete.py" />
       </list>
     </option>
@@ -116,7 +127,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.linkedlist_delete">
+  <component name="RunManager" selected="Python.linkedlist_delete_position">
     <configuration name="linkedlist" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -153,6 +164,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="linkedlist_delete_position" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python-Code" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linkedlist_delete_position.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="linkedlist_insert" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -171,16 +200,18 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.linkedlist" />
       <item index="1" class="java.lang.String" itemvalue="Python.linkedlist_insert" />
       <item index="2" class="java.lang.String" itemvalue="Python.linkedlist_delete" />
+      <item index="3" class="java.lang.String" itemvalue="Python.linkedlist_delete_position" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.linkedlist_delete" />
-        <item index="1" class="java.lang.String" itemvalue="Python.linkedlist_insert" />
-        <item index="2" class="java.lang.String" itemvalue="Python.linkedlist" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.linkedlist_delete_position" />
+        <item index="1" class="java.lang.String" itemvalue="Python.linkedlist_delete" />
+        <item index="2" class="java.lang.String" itemvalue="Python.linkedlist_insert" />
+        <item index="3" class="java.lang.String" itemvalue="Python.linkedlist" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +267,7 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -281,10 +312,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/linkedlist_delete_position.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="49" column="16" lean-forward="false" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/linkedlist_delete.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-301">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="243">
+          <caret line="51" column="21" lean-forward="true" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
           <folding />
         </state>
       </provider>
